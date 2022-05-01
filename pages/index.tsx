@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Script from 'next/script'
 
 import { PostCard, Categories, PostWidget, AboutMe, Footer } from '../components'
 import { getPosts } from '../services'
@@ -61,6 +62,15 @@ const Home: NextPage = ({ posts }) => {
 
       {/* Section - Footer */}
       <Footer />
+
+      <Script id="show-banner" strategy="lazyOnload">
+        {`
+          document.getElementById('theme-switch').addEventListener('click', function (event) {
+            console.log(event.target.checked);
+            (event.target.checked) ? document.querySelector('html').setAttribute("data-theme", "night") : document.querySelector('html').setAttribute("data-theme", "emerald");
+          });
+        `}
+      </Script>
       
     </div>
   )
