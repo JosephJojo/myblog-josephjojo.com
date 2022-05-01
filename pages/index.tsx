@@ -52,6 +52,7 @@ const Home: NextPage = ({ posts }) => {
           <Categories />
 
           {/* Section - Recent Posts */}
+          <PostWidget />
           
         </div>
 
