@@ -44,7 +44,15 @@ const Home: NextPage = ({ posts }) => {
 
         {/* Right Pane -Start */}
         <div className="xl:col-span-4 col-span-1">
+          
+          {/* Section - About Me */}
           <AboutMe />
+
+          {/* Section - Categories/Tags */}
+          <Categories />
+
+          {/* Section - Recent Posts */}
+          
         </div>
 
         {/* <div className='lg:col-span-4 col-span-1'>
