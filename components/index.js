@@ -7,3 +7,4 @@ export { default as AboutMe } from './AboutMe';
 export { default as Footer } from './Footer';
 export { default as Loader } from './Loader';
 export { default as PostDetail } from './PostDetail';
+export { default as AdjacentPostCard } from './AdjacentPostCard';

@@ -53,7 +53,7 @@ const Home: NextPage = ({ posts }) => {
               <Categories />
 
               {/* Section - Recent Posts */}
-              <PostWidget />
+              <PostWidget slug={null} categories={null} />
               
           </div>
           
