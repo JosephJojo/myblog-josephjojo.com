@@ -14,10 +14,10 @@ const Categories = () => {
   }, [])
 
   return (
-    <div class="mockup-code mb-8">
+    <div className="mockup-code mb-8">
       <pre data-prefix="$"><code>ls categories</code></pre>
       { categories.map((category) => (
-        <Link key={category.slug} href={`/category/${category.slug}`}><pre data-prefix=">" class="text-success hover:text-warning cursor-pointer"><code>{ category.name }</code></pre></Link>
+        <Link key={category.slug} href={`/category/${category.slug}`}><pre data-prefix=">" className="text-success hover:text-warning cursor-pointer"><code>{ category.name }</code></pre></Link>
       )) }
     </div>
   )
