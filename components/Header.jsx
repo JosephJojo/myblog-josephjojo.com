@@ -21,7 +21,7 @@ const Header = () => {
 				</div>
 			</div>
 			<div className="navbar-center">
-				<a className="btn btn-ghost normal-case text-xl">
+				<a href='/' className="btn btn-ghost normal-case text-xl">
 					<svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 93.000000 104.000000"> <g transform="translate(0.000000,104.000000) scale(0.100000,-0.100000)" className="fill-current" stroke="none"> <path d="M280 841 c0 -119 -4 -211 -11 -230 -20 -58 -70 -67 -122 -21 l-34 29 -56 -50 c-32 -28 -57 -57 -57 -64 0 -21 76 -81 119 -93 60 -18 169 -15 216 7 22 10 89 63 150 117 60 55 183 166 275 248 91 82 167 154 169 160 3 8 0 8 -10 0 -8 -6 -114 -86 -236 -178 l-223 -166 0 220 0 220 -90 0 -90 0 0 -199z" /> <path d="M328 363 c-169 -152 -306 -279 -303 -281 2 -3 102 68 222 157 l218 162 3 -97 c2 -74 -1 -102 -13 -120 -22 -34 -71 -32 -115 5 l-35 29 -55 -50 c-30 -28 -56 -54 -58 -59 -5 -13 59 -69 103 -90 29 -13 63 -19 126 -19 80 0 89 2 134 32 70 46 95 106 98 235 3 162 -2 373 -10 373 -5 -1 -146 -125 -315 -277z" /> </g> </svg>
 					Joseph's Blog
 				</a>

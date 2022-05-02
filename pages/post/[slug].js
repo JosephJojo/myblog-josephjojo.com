@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link'
 import { useRouter } from 'next/router';
 
 import { getPosts, getPostDetails } from '../../services';
@@ -20,9 +21,9 @@ const PostDetails = ({ post }) => {
 			<div className="mb-8 w-full">
 				<div className="text-sm breadcrumbs">
 					<ul>
-						<li><a>Home</a></li>
-						<li><a>Documents</a></li>
-						<li>Add Document</li>
+						<li><Link href={`/`}>Home</Link></li>
+						<li><Link href={`/`}>Posts</Link></li>
+						<li>{post.title}</li>
 					</ul>
 				</div>
 			</div>

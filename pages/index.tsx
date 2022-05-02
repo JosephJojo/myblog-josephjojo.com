@@ -15,8 +15,7 @@ const Home: NextPage = ({ posts }) => {
         <div className="text-sm breadcrumbs">
           <ul>
             <li><a>Home</a></li>
-            <li><a>Documents</a></li>
-            <li>Add Document</li>
+            <li><a>All Posts</a></li>
           </ul>
         </div>
       </div>
