@@ -5,10 +5,12 @@ import Script from 'next/script'
 
 import { PostCard, Categories, PostWidget, AboutMe, Footer } from '../components'
 import { getPosts } from '../services'
+import { FeaturedPosts } from '../sections';
 
 const Home: NextPage = ({ posts }) => {
   return (
     <div className="container mx-auto px-5 md:px-10 2xl:px-28 mb-8 min-h-screen">
+
 
       <div className="mb-8 w-full">
         <div className="text-sm breadcrumbs">
@@ -19,6 +21,9 @@ const Home: NextPage = ({ posts }) => {
           </ul>
         </div>
       </div>
+      
+      {/* Featured Posts */}
+      <FeaturedPosts />
 
       <div className="grid grid-cols-1 xl:grid-cols-12 gap-12 mb-8">
 
