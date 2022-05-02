@@ -32,7 +32,7 @@ const PostDetails = ({ post }) => {
 				<div className='xl:col-span-8 col-span-1'>
 
 					{/* Post Details */}
-					<PostDetail />
+					<PostDetail post={post} />
 
 					{/* Adjacent Posts */}
 					<div className="card w-full bg-base-100 shadow-xl image-full mb-8 cursor-pointer">
