@@ -11,7 +11,6 @@ const Home: NextPage = ({ posts }) => {
   return (
     <div className="container mx-auto px-5 md:px-10 2xl:px-28 mb-8 min-h-screen">
 
-
       <div className="mb-8 w-full">
         <div className="text-sm breadcrumbs">
           <ul>
