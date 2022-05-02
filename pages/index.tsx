@@ -9,8 +9,6 @@ import { getPosts } from '../services'
 const Home: NextPage = ({ posts }) => {
   return (
     <div className="container mx-auto px-5 md:px-10 2xl:px-28 mb-8 min-h-screen">
-      <title>Joseph's Blog</title>
-            <link rel="icon" href="/favicon.ico" />
 
       <div className="mb-8 w-full">
         <div className="text-sm breadcrumbs">
@@ -43,20 +41,24 @@ const Home: NextPage = ({ posts }) => {
 
         </div>
 
-        {/* Right Pane -Start */}
+        {/* Right Pane - Start */}
         <div className="xl:col-span-4 col-span-1">
           
-          {/* Section - About Me */}
-          <AboutMe />
+          <div className="relative xl:sticky top-8">
 
-          {/* Section - Categories/Tags */}
-          <Categories />
+              {/* Section - About Me */}
+              <AboutMe />
 
-          {/* Section - Recent Posts */}
-          <PostWidget />
+              {/* Section - Categories/Tags */}
+              <Categories />
+
+              {/* Section - Recent Posts */}
+              <PostWidget />
+              
+          </div>
           
         </div>
-        {/* Right Pane -Start */}
+        {/* Right Pane -End */}
 
       </div>
 
