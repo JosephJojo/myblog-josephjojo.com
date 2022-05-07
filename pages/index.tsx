@@ -31,7 +31,7 @@ const Home: NextPage = ({ posts }) => {
           {/* Section - Hero */}
           <div className="hero card h-96 mb-8 cursor-pointer hero-bg">
             <div className="hero-overlay bg-opacity-60"></div>
-            <div className="hero-content text-center text-secondary-content">
+            <div className="hero-content text-center text-neutral-content">
               <div className="max-w-md">
                 <h1 className="mb-5 text-5xl font-bold">Hello there 👋</h1>
                 <p className="mb-5">I'm a passionate about M365 web development, migration and the world around it. This blog serves as a place to document everything I've learned, developed, and challenges I've encountered between my career.</p>

@@ -27,7 +27,7 @@ const PostWidget = ({ categories, slug }) => {
         <>
           <Link href={`/post/${post.slug}`} key={index}>
             <div className="flex items-center p-4 cursor-pointer" key={index}>
-              <img className="mask mask-squircle h-16 w-16" src={post.featuredImage.url} alt={post.title} />
+              <img className="mask mask-squircle h-16 w-16 object-cover" src={post.featuredImage.url} alt={post.title} />
               <div className="ml-4">
                 <h2 className="card-title">{ post.title }</h2>
                 <p className="text-sm">{ moment(post.createdDate).format('MMMM DD, YYYY') }</p>
