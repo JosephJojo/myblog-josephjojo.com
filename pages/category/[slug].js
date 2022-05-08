@@ -54,10 +54,10 @@ const CategoryPost = ({ posts, slugName }) => {
                         {/* Section - Recent Posts */}
                         <PostWidget slug={posts.slug} />
 
-                        </div>
+                    </div>
                 </div>
+                {/* Right Pane - End */}
 
-                
             </div>
 
         </div>
