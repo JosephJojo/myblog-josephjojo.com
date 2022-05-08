@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 import Link from 'next/link'
 
 import { getCategories, getCategoryPost, GetSlugName } from '../../services';
-import { PostCard, Categories, Loader, AboutMe, PostWidget } from '../../components'
+import { PostCard, Categories, Loader, AboutMe, PostWidget, Footer } from '../../components'
 
 const CategoryPost = ({ posts, slugName }) => {
     const router = useRouter();
@@ -59,6 +59,9 @@ const CategoryPost = ({ posts, slugName }) => {
                 {/* Right Pane - End */}
 
             </div>
+
+            {/* Section - Footer */}
+            <Footer />
 
         </div>
     )
